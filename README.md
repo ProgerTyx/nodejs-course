@@ -3,7 +3,7 @@
 ## Using
 ```
 git clone https://github.com/ProgerTyx/nodejs-course.git
-cd nodejs-course/task1
+cd nodejs-course
 npm instal
 ```
 
