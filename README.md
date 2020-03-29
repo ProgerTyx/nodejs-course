@@ -5,6 +5,7 @@
 git clone https://github.com/ProgerTyx/nodejs-course.git
 cd nodejs-course
 npm instal
+cd task1
 ```
 
 ## Arguments
