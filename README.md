@@ -1,3 +1,25 @@
+# Caesar cipher CLI tool
+
+## Using
+```
+git clone https://github.com/ProgerTyx/nodejs-course.git
+cd nodejs-course/task1
+npm instal
+```
+
+## Arguments
+```
+-s, --shift: a shift or key to cipher (the number from 1 to 25)
+-i, --input: an input file name
+-o, --output: an output file name
+-a, --action: option to set action (encode/decode)
+```
+
+## Running application example
+```
+node ceasar-cipher-cli.js -a encoded -s 5 -i input.txt -o output.txt
+```
+
 # RS School REST service
 
 ## Prerequisites
