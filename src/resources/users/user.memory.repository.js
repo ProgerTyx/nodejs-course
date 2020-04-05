@@ -1,6 +1,18 @@
-const getAll = async () => {
-  // TODO: mock implementation. should be replaced during task development
-  return [];
+const db = [];
+
+exports.getAll = async () => db;
+
+exports.save = async data => db.push(data);
+
+exports.getById = async id => db.find(user => user.id === id);
+
+exports.update = async (user, newUser) => {
+  const idx = db.indexOf(user);
+  db.splice(idx, 1, newUser);
 };
 
-module.exports = { getAll };
+exports.remove = async id => {
+  const user = await this.getById(id);
+  const idx = db.indexOf(user);
+  db.splice(idx, 1);
+};

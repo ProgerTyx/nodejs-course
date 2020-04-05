@@ -41,14 +41,12 @@ describe('Users suite', () => {
         .expect(200)
         .expect('Content-Type', /json/);
       const userId = ((usersResponse.body || [])[0] || {}).id;
-
       // Test:
       const userResponse = await request
         .get(routes.users.getById(userId))
         .set('Accept', 'application/json')
         .expect(200)
         .expect('Content-Type', /json/);
-
       expect(userResponse.body).to.be.instanceOf(Object);
       expect(userResponse.body.id).to.equal(userId);
     });
