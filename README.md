@@ -3,8 +3,9 @@
 ## Using
 ```
 git clone https://github.com/ProgerTyx/nodejs-course.git
-cd nodejs-course/task1
+cd nodejs-course
 npm instal
+cd task1
 ```
 
 ## Arguments
@@ -17,7 +18,7 @@ npm instal
 
 ## Running application example
 ```
-node ceasar-cipher-cli.js -a encoded -s 5 -i input.txt -o output.txt
+node ceasar-cipher-cli.js -a encode -s 5 -i input.txt -o output.txt
 ```
 
 # RS School REST service
