@@ -1,3 +1,4 @@
+const ErrorHandler = require('../../common/ErrorHandler');
 const db = [];
 
 exports.getAll = async () => db;
@@ -14,7 +15,7 @@ exports.update = async (task, newTask) => {
 exports.remove = async id => {
   const task = await this.getById(id);
   if (!task) {
-    throw new Error();
+    throw new ErrorHandler(404, 'Task not Found');
   }
   const idx = db.indexOf(task);
   db.splice(idx, 1);

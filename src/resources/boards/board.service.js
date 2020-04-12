@@ -17,5 +17,5 @@ exports.delete = async id => {
     }
   });
 
-  boardsRepo.delete(id);
+  await boardsRepo.delete(id);
 };

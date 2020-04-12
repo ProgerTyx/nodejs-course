@@ -22,5 +22,5 @@ exports.remove = async id => {
     }
   });
 
-  usersRepo.remove(id);
+  await usersRepo.remove(id);
 };

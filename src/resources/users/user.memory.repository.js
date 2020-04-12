@@ -13,6 +13,9 @@ exports.update = async (user, newUser) => {
 
 exports.remove = async id => {
   const user = await this.getById(id);
+  if (!user) {
+    throw new Error();
+  }
   const idx = db.indexOf(user);
   db.splice(idx, 1);
 };
