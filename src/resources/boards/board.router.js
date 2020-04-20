@@ -3,25 +3,22 @@ const Board = require('./board.model');
 const Task = require('../tasks/task.model');
 const ErrorHandler = require('../../common/ErrorHandler');
 const { handlerRoute } = require('../../common/handlerRoute');
+const { boardToResponce } = require('../../helpers/toResponce');
 
 router.route('/').get(
   handlerRoute(async (req, res, next) => {
     const boards = await Board.find();
-    res.json(boards);
-    return next();
+    res.json(boards.map(boardToResponce));
+    next();
   })
 );
 
 router.route('/').post(
   handlerRoute(async (req, res, next) => {
-    if (!req.params.id) {
-      throw new ErrorHandler(404, 'Board id not found');
-    }
-    console.log(req.body);
     const board = new Board(req.body);
     await board.save();
-    res.json(board);
-    return next();
+    res.json(boardToResponce(board));
+    next();
   })
 );
 
@@ -32,8 +29,13 @@ router.route('/:id').get(
     }
 
     const board = await Board.findById(req.params.id);
-    res.json(board);
-    return next();
+
+    if (!board) {
+      throw new ErrorHandler(404, 'Board not found');
+    }
+
+    res.json(boardToResponce(board));
+    next();
   })
 );
 
@@ -43,10 +45,13 @@ router.route('/:id').put(
       throw new ErrorHandler(404, 'Board id not found');
     }
 
-    await Board.where({ _id: req.params.id }).updateOne(req.body);
-    const board = await Board.findById(req.params.id);
+    const board = await Board.where().findOneAndUpdate(
+      { _id: req.params.id },
+      req.body,
+      { new: true }
+    );
     res.json(board);
-    return next();
+    next();
   })
 );
 
@@ -61,7 +66,7 @@ router.route('/:id').delete(
     res
       .status(204)
       .json({ message: `Board with id ${req.params.id} has been deleted` });
-    return next();
+    next();
   })
 );
 

@@ -10,7 +10,8 @@ async function start() {
     await mongoose.connect(MONGO_CONNECTION_STRING, {
       useCreateIndex: true,
       useNewUrlParser: true,
-      useUnifiedTopology: true
+      useUnifiedTopology: true,
+      useFindAndModify: false
     });
     app.listen(PORT, () =>
       console.log(`App is running on http://localhost:${PORT}`)

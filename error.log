@@ -1,165 +1,35 @@
 {
-  message: 'POST /boards *** 404 Board id not found',
+  message: 'GET /boards/5e9db21a018df51950e2e397/tasks/5e9db21b018df51950e2e39b *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.255Z'
+  timestamp: '2020-04-20T14:30:52.215Z'
 }
 {
-  message: 'POST /boards *** 404 Board id not found',
+  message: 'GET /boards/5e9db21c018df51950e2e3a8 *** 404 Board not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.263Z'
+  timestamp: '2020-04-20T14:30:52.641Z'
 }
 {
-  message: "GET /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: empty'",
+  message: 'GET /boards/5e9db21c018df51950e2e3ab/tasks/5e9db21c018df51950e2e3b2 *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.690Z'
+  timestamp: '2020-04-20T14:30:53.092Z'
 }
 {
-  message: "GET /boards *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards *** PARAMS: empty *** BODY: empty'",
+  message: 'GET /boards/5e9db21c018df51950e2e3ab/tasks/5e9db21c018df51950e2e3ae *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.705Z'
+  timestamp: '2020-04-20T14:30:53.095Z'
 }
 {
-  message: `POST /boards/undefined/tasks *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards/undefined/tasks *** PARAMS: empty *** BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}'`,
+  message: 'GET /boards/5e9db21c018df51950e2e3ab/tasks/5e9db21c018df51950e2e3af *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.710Z'
+  timestamp: '2020-04-20T14:30:53.101Z'
 }
 {
-  message: `POST /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}'`,
+  message: 'GET /boards/5e9db21c018df51950e2e3ab/tasks/5e9db21c018df51950e2e3b0 *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.811Z'
+  timestamp: '2020-04-20T14:30:53.103Z'
 }
 {
-  message: "GET /boards *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards *** PARAMS: empty *** BODY: empty'",
+  message: 'GET /boards/5e9db21c018df51950e2e3ab/tasks/5e9db21c018df51950e2e3b1 *** 404 Task not found',
   level: 'error',
-  timestamp: '2020-04-19T14:01:01.833Z'
-}
-{
-  message: "GET /boards/undefined/tasks *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards/undefined/tasks *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.842Z'
-}
-{
-  message: 'POST /boards *** 404 Board id not found',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.862Z'
-}
-{
-  message: 'POST /boards *** 404 Board id not found',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.880Z'
-}
-{
-  message: 'PUT /boards/undefined *** 500 Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.885Z'
-}
-{
-  message: "GET /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.895Z'
-}
-{
-  message: "GET /boards/undefined/tasks *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards/undefined/tasks *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.936Z'
-}
-{
-  message: 'GET /boards/undefined/tasks/undefined *** 500 Cast to ObjectId failed for value "undefined" at path "_id" for model "Task"',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.943Z'
-}
-{
-  message: "GET /users/5e9b0e0a641b2e1c88795d6c *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9b0e0a641b2e1c88795d6c *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.966Z'
-}
-{
-  message: "GET /boards *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.970Z'
-}
-{
-  message: 'POST /boards *** 404 Board id not found',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:01.980Z'
-}
-{
-  message: `POST /boards/undefined/tasks *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards/undefined/tasks *** PARAMS: empty *** BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.008Z'
-}
-{
-  message: "DELETE /users/5e9b0e0a641b2e1c88795d6c *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9b0e0a641b2e1c88795d6c *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.087Z'
-}
-{
-  message: `POST /boards/undefined/tasks *** 500 Cannot create property 'Symbol(level)' on string 'URL: /boards/undefined/tasks *** PARAMS: empty *** BODY: {"title":"Autotest task","order":0,"description":"Lorem ipsum","userId":null,"boardId":null,"columnId":null}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.149Z'
-}
-{
-  message: `POST /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.167Z'
-}
-{
-  message: 'PUT /boards/undefined/tasks/undefined *** 500 Cast to ObjectId failed for value "undefined" at path "_id" for model "Task"',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.176Z'
-}
-{
-  message: 'GET /boards/undefined/tasks/undefined *** 500 Cast to ObjectId failed for value "undefined" at path "_id" for model "Task"',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.195Z'
-}
-{
-  message: 'DELETE /boards/undefined *** 500 Cast to ObjectId failed for value "undefined" at path "_id" for model "Board"',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.198Z'
-}
-{
-  message: "DELETE /users/5e9c599ed763f80fb8597624 *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9c599ed763f80fb8597624 *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.253Z'
-}
-{
-  message: `POST /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.326Z'
-}
-{
-  message: `PUT /users/5e9c599ed763f80fb8597625 *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9c599ed763f80fb8597625 *** PARAMS: empty *** BODY: {"name":"Autotest updated TEST_USER","login":"test_user","password":"T35t_P@55w0rd","id":"5e9c599ed763f80fb8597625"}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.459Z'
-}
-{
-  message: "GET /users/5e9c599ed763f80fb8597625 *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9c599ed763f80fb8597625 *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.537Z'
-}
-{
-  message: "DELETE /users/5e9c599ed763f80fb8597625 *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9c599ed763f80fb8597625 *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.623Z'
-}
-{
-  message: `POST /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.700Z'
-}
-{
-  message: "DELETE /users/5e9c599ed763f80fb8597626 *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users/5e9c599ed763f80fb8597626 *** PARAMS: empty *** BODY: empty'",
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.775Z'
-}
-{
-  message: `POST /users *** 500 Cannot create property 'Symbol(level)' on string 'URL: /users *** PARAMS: empty *** BODY: {"name":"TEST_USER","login":"test_user","password":"T35t_P@55w0rd"}'`,
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.851Z'
-}
-{
-  message: 'POST /boards *** 404 Board id not found',
-  level: 'error',
-  timestamp: '2020-04-19T14:01:02.866Z'
+  timestamp: '2020-04-20T14:30:53.147Z'
 }

@@ -29,7 +29,7 @@ app.use('/users', userRouter);
 app.use('/boards', boardRouter);
 app.use('/boards/:id/tasks', taskRouter);
 
-app.use(loggerMiddleware);
+// app.use(loggerMiddleware);
 app.use(handleError);
 
 module.exports = app;

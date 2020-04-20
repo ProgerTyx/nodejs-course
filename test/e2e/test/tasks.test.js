@@ -77,7 +77,6 @@ describe('Tasks suite', () => {
           jestExpect(res.body).not.toHaveLength(0);
           expectedTask = res.body[0];
         });
-
       // Test
       await request
         .get(routes.tasks.getById(expectedTask.boardId, expectedTask.id))
