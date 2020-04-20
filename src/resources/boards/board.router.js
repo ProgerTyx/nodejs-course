@@ -1,67 +1,68 @@
 const router = require('express').Router();
 const Board = require('./board.model');
-const boardsService = require('./board.service');
+const Task = require('../tasks/task.model');
 const ErrorHandler = require('../../common/ErrorHandler');
+const { handlerRoute } = require('../../common/handlerRoute');
 
-router.get('/', async (req, res, next) => {
-  try {
-    const boards = await boardsService.getAll();
+router.route('/').get(
+  handlerRoute(async (req, res, next) => {
+    const boards = await Board.find();
     res.json(boards);
     return next();
-  } catch (e) {
-    return next(e);
-  }
-});
+  })
+);
 
-router.post('/', async (req, res, next) => {
-  try {
+router.route('/').post(
+  handlerRoute(async (req, res, next) => {
+    if (!req.params.id) {
+      throw new ErrorHandler(404, 'Board id not found');
+    }
+    console.log(req.body);
     const board = new Board(req.body);
-    await boardsService.save(board);
+    await board.save();
     res.json(board);
     return next();
-  } catch (e) {
-    return next(e);
-  }
-});
+  })
+);
 
-router.get('/:id', async (req, res, next) => {
-  try {
+router.route('/:id').get(
+  handlerRoute(async (req, res, next) => {
     if (!req.params.id) {
-      throw new ErrorHandler(400, 'Id not found');
+      throw new ErrorHandler(404, 'Board id not found');
     }
-    const board = await boardsService.getById(req.params.id);
-    if (!board) {
-      throw new ErrorHandler(404, 'Board not found');
-    }
+
+    const board = await Board.findById(req.params.id);
     res.json(board);
     return next();
-  } catch (e) {
-    return next(e);
-  }
-});
+  })
+);
 
-router.put('/:id', async (req, res, next) => {
-  try {
+router.route('/:id').put(
+  handlerRoute(async (req, res, next) => {
     if (!req.params.id) {
-      throw new ErrorHandler(400, 'Id not found');
+      throw new ErrorHandler(404, 'Board id not found');
     }
-    const board = await boardsService.getById(req.params.id);
-    await boardsService.update(board, req.body);
+
+    await Board.where({ _id: req.params.id }).updateOne(req.body);
+    const board = await Board.findById(req.params.id);
     res.json(board);
     return next();
-  } catch (e) {
-    return next(e);
-  }
-});
+  })
+);
 
-router.delete('/:id', async (req, res, next) => {
-  try {
-    await boardsService.delete(req.params.id);
-    res.status(204).end();
+router.route('/:id').delete(
+  handlerRoute(async (req, res, next) => {
+    if (!req.params.id) {
+      throw new ErrorHandler(404, 'Board id not found');
+    }
+
+    await Board.deleteOne({ _id: req.params.id });
+    await Task.deleteMany({ boardId: req.params.id });
+    res
+      .status(204)
+      .json({ message: `Board with id ${req.params.id} has been deleted` });
     return next();
-  } catch (e) {
-    return next(e);
-  }
-});
+  })
+);
 
 module.exports = router;

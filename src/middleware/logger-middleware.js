@@ -9,5 +9,5 @@ module.exports = (req, res, next) => {
   const queryStr = isEmptyObj(query) ? EMPTY : JSON.stringify(query);
   const bodyStr = isEmptyObj(body) ? EMPTY : JSON.stringify(body);
 
-  logger.info(`URL: ${urlStr} *** PARAMS: ${queryStr} *** BODY: ${bodyStr}`);
+  logger.log(`URL: ${urlStr} *** PARAMS: ${queryStr} *** BODY: ${bodyStr}`);
 };

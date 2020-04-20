@@ -1,23 +1,12 @@
-const uuid = require('uuid');
+const { Schema, model } = require('mongoose');
 
-class Task {
-  constructor({
-    id = uuid(),
-    title = 'task',
-    order = 1,
-    description = 'play',
-    userId = null,
-    boardId = null,
-    columnId = null
-  } = {}) {
-    this.id = id;
-    this.title = title;
-    this.order = order;
-    this.description = description;
-    this.userId = userId;
-    this.boardId = boardId;
-    this.columnId = columnId;
-  }
-}
+const taskSchema = new Schema({
+  title: String,
+  order: Number,
+  description: String,
+  userId: String,
+  boardId: String,
+  columnId: String
+});
 
-module.exports = Task;
+module.exports = model('Task', taskSchema);
