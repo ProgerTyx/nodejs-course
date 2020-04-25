@@ -948,3 +948,583 @@
   level: 'error',
   timestamp: '2020-04-25T18:16:58.261Z'
 }
+{
+  message: 'POST /login *** 400 Bad Request',
+  level: 'error',
+  timestamp: '2020-04-25T18:42:02.539Z'
+}
+{
+  message: 'POST /login *** 400 Bad Request',
+  level: 'error',
+  timestamp: '2020-04-25T19:03:45.115Z'
+}
+{
+  message: 'POST /login *** 400 Jello',
+  level: 'error',
+  timestamp: '2020-04-25T19:05:33.015Z'
+}
+{
+  message: 'POST /login *** 500 createAccessToken is not a function',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.816Z'
+}
+{
+  message: 'POST /login *** 500 createAccessToken is not a function',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.823Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.829Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.834Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.837Z'
+}
+{
+  message: 'POST /boards/undefined/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.839Z'
+}
+{
+  message: 'GET /boards/undefined/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.842Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.850Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.854Z'
+}
+{
+  message: 'GET /boards/undefined/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.855Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.857Z'
+}
+{
+  message: 'POST /boards/undefined/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.859Z'
+}
+{
+  message: 'PUT /boards/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.867Z'
+}
+{
+  message: 'POST /login *** 500 createAccessToken is not a function',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.868Z'
+}
+{
+  message: 'POST /boards/undefined/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.870Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.872Z'
+}
+{
+  message: 'PUT /boards/undefined/tasks/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.873Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.876Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.884Z'
+}
+{
+  message: 'GET /boards/undefined/tasks/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.885Z'
+}
+{
+  message: 'DELETE /boards/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.887Z'
+}
+{
+  message: 'DELETE /boards/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.889Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.891Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.896Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.905Z'
+}
+{
+  message: 'PUT /users/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.907Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.913Z'
+}
+{
+  message: 'DELETE /users/undefined *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.940Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:20.967Z'
+}
+{
+  message: 'GET /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.186Z'
+}
+{
+  message: 'GET /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.189Z'
+}
+{
+  message: 'POST /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.192Z'
+}
+{
+  message: 'PUT /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.196Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.206Z'
+}
+{
+  message: 'DELETE /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.208Z'
+}
+{
+  message: 'GET /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.210Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.221Z'
+}
+{
+  message: 'PUT /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.223Z'
+}
+{
+  message: 'DELETE /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.226Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.237Z'
+}
+{
+  message: 'GET /users/123 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.241Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.244Z'
+}
+{
+  message: 'PUT /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.254Z'
+}
+{
+  message: 'DELETE /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:19:21.257Z'
+}
+{
+  message: 'GET /boards/5ea48dd3604b46217c559fa4/tasks/5ea48dd3604b46217c559faa *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.423Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fb6 *** 404 Board not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.631Z'
+}
+{
+  message: 'GET /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.758Z'
+}
+{
+  message: 'GET /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.762Z'
+}
+{
+  message: 'POST /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.765Z'
+}
+{
+  message: 'PUT /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.769Z'
+}
+{
+  message: 'DELETE /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.777Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.949Z'
+}
+{
+  message: 'GET /users/123 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.953Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.962Z'
+}
+{
+  message: 'PUT /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.965Z'
+}
+{
+  message: 'DELETE /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:56.967Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fba/tasks/5ea48dd4604b46217c559fbd *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.127Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fba/tasks/5ea48dd4604b46217c559fbf *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.129Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fba/tasks/5ea48dd4604b46217c559fbe *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.132Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fba/tasks/5ea48dd4604b46217c559fc0 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.135Z'
+}
+{
+  message: 'GET /boards/5ea48dd4604b46217c559fba/tasks/5ea48dd4604b46217c559fc1 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.167Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.179Z'
+}
+{
+  message: 'GET /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.184Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.201Z'
+}
+{
+  message: 'PUT /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.210Z'
+}
+{
+  message: 'DELETE /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:21:57.212Z'
+}
+{
+  message: 'POST /login *** 403 Forbidden',
+  level: 'error',
+  timestamp: '2020-04-25T19:27:03.613Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:28:06.557Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:28:06.815Z'
+}
+{
+  message: 'GET /boards/5ea48fab70387b01b4999412 *** 404 Board not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.065Z'
+}
+{
+  message: 'GET /boards/5ea48fab70387b01b4999400/tasks/5ea48fab70387b01b4999406 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.147Z'
+}
+{
+  message: 'GET /boards/5ea48fac70387b01b4999416/tasks/5ea48fac70387b01b499941d *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.574Z'
+}
+{
+  message: 'GET /boards/5ea48fac70387b01b4999416/tasks/5ea48fac70387b01b499941c *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.580Z'
+}
+{
+  message: 'GET /boards/5ea48fac70387b01b4999416/tasks/5ea48fac70387b01b4999419 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.582Z'
+}
+{
+  message: 'GET /boards/5ea48fac70387b01b4999416/tasks/5ea48fac70387b01b499941a *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.584Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.587Z'
+}
+{
+  message: 'GET /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.590Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.600Z'
+}
+{
+  message: 'PUT /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.603Z'
+}
+{
+  message: 'DELETE /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.606Z'
+}
+{
+  message: 'GET /boards/5ea48fac70387b01b4999416/tasks/5ea48fac70387b01b499941b *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.630Z'
+}
+{
+  message: 'GET /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.788Z'
+}
+{
+  message: 'GET /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.792Z'
+}
+{
+  message: 'POST /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.801Z'
+}
+{
+  message: 'PUT /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.804Z'
+}
+{
+  message: 'DELETE /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.808Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.948Z'
+}
+{
+  message: 'GET /users/123 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.950Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.953Z'
+}
+{
+  message: 'PUT /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.955Z'
+}
+{
+  message: 'DELETE /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:29:48.958Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fa *** 404 Board not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:05.831Z'
+}
+{
+  message: 'GET /boards/5ea49034f1f9b02048ff19e8/tasks/5ea49034f1f9b02048ff19ee *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:05.899Z'
+}
+{
+  message: 'GET /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.283Z'
+}
+{
+  message: 'GET /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.288Z'
+}
+{
+  message: 'POST /boards *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.291Z'
+}
+{
+  message: 'PUT /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.294Z'
+}
+{
+  message: 'DELETE /boards/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.297Z'
+}
+{
+  message: 'GET /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.467Z'
+}
+{
+  message: 'GET /users/123 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.470Z'
+}
+{
+  message: 'POST /users *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.473Z'
+}
+{
+  message: 'PUT /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.476Z'
+}
+{
+  message: 'DELETE /users/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.479Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fe/tasks/5ea49035f1f9b02048ff1a02 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.626Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fe/tasks/5ea49035f1f9b02048ff1a01 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.628Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fe/tasks/5ea49035f1f9b02048ff1a03 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.630Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fe/tasks/5ea49035f1f9b02048ff1a05 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.636Z'
+}
+{
+  message: 'GET /boards/5ea49035f1f9b02048ff19fe/tasks/5ea49035f1f9b02048ff1a04 *** 404 Task not found',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.637Z'
+}
+{
+  message: 'GET /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.663Z'
+}
+{
+  message: 'GET /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.672Z'
+}
+{
+  message: 'POST /boards/12345/tasks *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.677Z'
+}
+{
+  message: 'PUT /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.685Z'
+}
+{
+  message: 'DELETE /boards/12345/tasks/12345 *** 401 Unauthorized',
+  level: 'error',
+  timestamp: '2020-04-25T19:32:06.692Z'
+}

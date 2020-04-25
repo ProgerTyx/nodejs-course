@@ -2,11 +2,11 @@ const router = require('express').Router();
 const Board = require('./board.model');
 const Task = require('../tasks/task.model');
 const ErrorHandler = require('../../common/ErrorHandler');
-const { handlerRoute } = require('../../common/handlerRoute');
 const { boardToResponce } = require('../../helpers/toResponce');
+const asyncHandler = require('express-async-handler');
 
 router.route('/').get(
-  handlerRoute(async (req, res, next) => {
+  asyncHandler(async (req, res, next) => {
     const boards = await Board.find();
     res.json(boards.map(boardToResponce));
     next();
@@ -14,7 +14,7 @@ router.route('/').get(
 );
 
 router.route('/').post(
-  handlerRoute(async (req, res, next) => {
+  asyncHandler(async (req, res, next) => {
     const board = new Board(req.body);
     await board.save();
     res.json(boardToResponce(board));
@@ -23,7 +23,7 @@ router.route('/').post(
 );
 
 router.route('/:id').get(
-  handlerRoute(async (req, res, next) => {
+  asyncHandler(async (req, res, next) => {
     if (!req.params.id) {
       throw new ErrorHandler(404, 'Board id not found');
     }
@@ -40,7 +40,7 @@ router.route('/:id').get(
 );
 
 router.route('/:id').put(
-  handlerRoute(async (req, res, next) => {
+  asyncHandler(async (req, res, next) => {
     if (!req.params.id) {
       throw new ErrorHandler(404, 'Board id not found');
     }
@@ -56,7 +56,7 @@ router.route('/:id').put(
 );
 
 router.route('/:id').delete(
-  handlerRoute(async (req, res, next) => {
+  asyncHandler(async (req, res, next) => {
     if (!req.params.id) {
       throw new ErrorHandler(404, 'Board id not found');
     }
