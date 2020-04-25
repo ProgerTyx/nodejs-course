@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const User = require('./user.model');
 const Task = require('../tasks/task.model');
+const bcrypt = require('bcrypt');
 const ErrorHandler = require('../../common/ErrorHandler');
 const { handlerRoute } = require('../../common/handlerRoute');
 const { userToResponce } = require('../../helpers/toResponce');
@@ -18,8 +19,10 @@ router.route('/').post(
     if (!req.body.login || !req.body.name || !req.body.password) {
       throw new ErrorHandler(400, 'Not all data received.');
     }
+    const { password, name, login } = req.body;
+    const hashedPassword = await bcrypt.hash(password, 12);
 
-    const user = new User(req.body);
+    const user = new User({ name, login, password: hashedPassword });
     await user.save();
     res.json(userToResponce(user));
     return next();
